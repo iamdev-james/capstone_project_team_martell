@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="https://kit.fontawesome.com/a20452da6e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Capstone project</title>
+</head>
+<body>
+  <div class="bg_normal" :class = 'currentClass' id="main">
+    <section id="nav-bar">
+      <div class="PD-10">
+        <i class="color_whitePD far fa-dot-circle fa-2x MT15"></i>
+      </div>
+      <div class="icon_blue flex_column">
+        <i class="fab fa-facebook M10"></i>
+        <i class="fab fa-instagram M10"></i>
+        <i class="fab fa-wpressr M10"></i>
+      </div>
+    </section>
+    <section id="page-body">
+      <div id="header_nav" class="flex_row MT20">
+        <div>
+          <ul>
+            <li class="MRL15">Home</li>
+            <li class="MRL15">About</li>
+            <li class="MRL15">Market place</li>
+            <li class="MRL15">Blog</li>
+            <li class="MRL15">Contact Us</li>
+          </ul>
+        </div>
+        <div>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </div>
+      <div id="content-section" class="flex_row MT30 PB20">
+        <div class="part_a">
+          <img src="img/skate.png" alt="skate-pic" width="250px" height=300px">
+          <h1 class="part_a_word1">SPEEDY</h1>
+          <h1 class="part_a_word2">QUADS</h1>
+        </div>
+        <div class="part_b">
+          <div id="part_b_header" class="flex_row_nospace">
+           <h2><i> PONNKN </i> SPEEDY QUADS </h2>
+           <span class="ML35 color_orange">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           </span>
+          </div>
+          <small>Lorem ipsum dolor sit.</small>
+          <h3>3 500 py6.</h3>
+          <p class="MT20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum mollitia at autem neque dicta nemo nam eaque amet enim iusto a incidunt recusandae delectus illum harum veritatis itaque consequuntur, reprehenderit doloribus consequatur ex molestias et! Molestias odio officiis numquam, commodi voluptatum qui nisi quasi, eligendi, consequatur perferendis deleniti quaerat enim.</p>
+          <a href="#">Neirnfier</a>
+          <div>
+            LIBET:
+            <span @click = 'setCurrentColor("blue")' id="blue_container" class="SHW"> </span>
+            <span @click = 'setCurrentColor("pink")' id="pink_container" class="SHW"> </span>
+            <span @click = 'setCurrentColor("yellow")' id="yellow_container" class="SHW"> </span>
+            <span @click = 'setCurrentColor("grey")' id="grey_container" class="SHW"> </span>
+          </div>
+          <div>
+            PA3MEP:
+            <select id="select_shit">
+            <option>Extension</option>
+            <option>Lorem.</option>
+            <option>Lorem, ipsum.</option>
+            <option>Ajiehdee</option>
+            </select>
+          </div>
+          <button id="part_b_btn"> Edhtrugytgb a eufbruf </button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
