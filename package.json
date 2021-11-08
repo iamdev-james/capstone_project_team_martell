@@ -1,0 +1,23 @@
+{
+  "name": "capstone_project_team_martell",
+  "version": "1.0.0",
+  "description": "Side hustle project 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdev-james/capstone_project_team_martell.git"
+  },
+  "keywords": [
+    "capstone",
+    "project"
+  ],
+  "author": "Team Martell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamdev-james/capstone_project_team_martell/issues"
+  },
+  "homepage": "https://github.com/iamdev-james/capstone_project_team_martell#readme"
+}
